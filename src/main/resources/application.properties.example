@@ -1,0 +1,10 @@
+server.port={SERVER-PORT}
+
+spring.sql.init.platform=postgres
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://{URL}:{PORT}/{DATABASE}
+spring.datasource.username={USER}
+spring.datasource.password={PASSWORD}
+
+spring.flyway.enabled=true
+spring.flyway.out-of-order=true
